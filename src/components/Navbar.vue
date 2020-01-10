@@ -1,19 +1,22 @@
 <template>
   <div>
-    <v-app-bar>
+    <v-app-bar app elevate-on-scroll class="transparent">
 
       <v-toolbar-title>
         <span>{{ fname }}</span>
-        <span>{{ lname }}</span>
+        <span class="font-weight-bold">{{ lname }}</span>
       </v-toolbar-title>
 
       <v-spacer></v-spacer>
 
-      <v-btn text>Home</v-btn>
-      <v-btn text>About</v-btn>
-      <v-btn text>Projects</v-btn>
-      <v-btn text>Blogs</v-btn>
-      <v-btn text>Contact</v-btn>
+      <v-btn v-for="btn in routes" 
+              :key="btn.name" 
+              text
+              router 
+              :to="btn.link"
+              exact>{{ btn.name }}
+      </v-btn>
+      
 
     </v-app-bar>
   </div>
@@ -23,8 +26,30 @@
 export default {
   data() {
     return {
-      fname: "HARSHAL ",
-      lname: "NANDIGRAMWAR"
+      fname: "HN/",
+      lname: "bitbeast",
+      routes: [
+        {
+          name: "home",
+          link: "/"
+        },
+        {
+          name: "about",
+          link: "/about"
+        },
+        {
+          name: "projects",
+          link: "/projects"
+        },
+        {
+          name: "blog",
+          link: "/blogs"
+        },
+        {
+          name: "contact",
+          link: "/contact"
+        }
+      ]
     }
   }
 }
