@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-app-bar app elevate-on-scroll class="transparent">
+    <v-app-bar app elevate-on-scroll>
 
       <v-toolbar-title>
         <span>{{ fname }}</span>
