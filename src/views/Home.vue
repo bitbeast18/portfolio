@@ -3,7 +3,7 @@
         <div class="head">Hello, World!</div>
         <div class="text">
             I'm <span>Harshal Nandigramwar</span>, Competitive programmer,<br/>Cross-platform 
-            Full-stack developer and ML/DL practitioner.<br/>I'm open for SDE internships.            
+            Full-stack developer and ML/DL practitioner.<br/>I'm open for <span>SDE internships</span>.            
         </div>
         <div class="btn-g">
             <v-btn outlined fab retain-focus-on-click href="https://twitter.com/bitbeast18/" target="_blank">
@@ -55,7 +55,6 @@ export default {
     span {
         font-weight: 600;
         font-size: 30px;
-        font-family: 'Courier New', Courier, monospace;
     }
 
     .btn-g {
