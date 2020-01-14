@@ -3,7 +3,7 @@
         <v-timeline :dense="$vuetify.breakpoint.smAndDown">
             <v-timeline-item v-for="edu in edus" :key="edu.name">
                 <template v-slot:opposite>
-                    <span class="elevation-3 rounded headline pa-2 text-center white"> {{edu.year}} </span>
+                    <span class="elevation-3 rounded font-weight-bold pa-2 text-center white"> {{edu.year}} </span>
                 </template>
                 <v-card>
                     <v-card-title> {{ edu.name }} </v-card-title>

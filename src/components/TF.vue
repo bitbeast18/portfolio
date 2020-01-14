@@ -2,7 +2,7 @@
   <v-container class="ctc">
     <v-row>
       <v-col v-for="item in tools" :key="item">
-        <v-card height="200px" width="200px" class="pa-4">
+        <v-card height="100px" width="100px" class="pa-4">
           <v-img :contain="true" aspect-ratio="1" :src="`/tool_icons/${item}`"></v-img>
         </v-card>
       </v-col>

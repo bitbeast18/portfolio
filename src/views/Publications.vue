@@ -28,12 +28,7 @@ export default {
                     link: "https://google.com", 
                     text: "Siamese Networks is the model behind most face recognition technology. This article investigates the various parts that powers it."
                 },
-                {
-                    id: 2,
-                    title: "Siamese Networks: Visualising the interesting parts",
-                    subtitle: "Blog",
-                    text: "Siamese networks are very good."
-                }
+                
             ]
         }
     }

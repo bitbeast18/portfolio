@@ -2,7 +2,7 @@
   <v-card class="ma-5 transparent elevation-0">
     <v-tabs color="black" centered grow>
       <v-tab v-for="tab in tabs" :key="tab" >{{ tab }}</v-tab>
-      <v-tab-item><Bio></Bio></v-tab-item>
+      <v-tab-item><Exp></Exp></v-tab-item>
       <v-tab-item><Edu></Edu></v-tab-item>
       <v-tab-item><Crs></Crs></v-tab-item>
       <v-tab-item><TF></TF></v-tab-item>
@@ -13,7 +13,7 @@
 
 <script>
 
-import Bio from '@/components/Bio';
+import Exp from '@/components/Exp';
 import Edu from '@/components/Edu';
 import Crs from '@/components/Crs';
 import TF from '@/components/TF';
@@ -22,7 +22,7 @@ import Achv from '@/components/Achv';
 
 export default {
     components: {
-        Bio,
+        Exp,
         Edu,
         Crs,
         TF,
@@ -31,7 +31,7 @@ export default {
   data() {
     return {
       tabs: [
-           "Bio", "Education", "Courses", "Tools", "Achievements"
+           "Experience", "Education", "Courses", "Tools", "Achievements"
            ],
       
     };
@@ -41,7 +41,7 @@ export default {
 
 <style>
 .theme--light.v-tabs-items {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 .rounded {
