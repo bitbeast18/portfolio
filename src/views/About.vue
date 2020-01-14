@@ -6,7 +6,7 @@
       <v-tab-item><Edu></Edu></v-tab-item>
       <v-tab-item><Crs></Crs></v-tab-item>
       <v-tab-item><TF></TF></v-tab-item>
-      <v-tab-item><Achv></Achv></v-tab-item>
+      <v-tab-item><Profile></Profile></v-tab-item>
     </v-tabs>
   </v-card>
 </template>
@@ -17,7 +17,7 @@ import Exp from '@/components/Exp';
 import Edu from '@/components/Edu';
 import Crs from '@/components/Crs';
 import TF from '@/components/TF';
-import Achv from '@/components/Achv';
+import Profile from '@/components/Profile';
 
 
 export default {
@@ -26,12 +26,12 @@ export default {
         Edu,
         Crs,
         TF,
-        Achv
+        Profile
     },
   data() {
     return {
       tabs: [
-           "Experience", "Education", "Courses", "Tools", "Achievements"
+           "Experience", "Education", "Courses", "Tools", "Profiles"
            ],
       
     };
