@@ -2,7 +2,7 @@
   <v-card class="ma-5 transparent elevation-0">
     <v-tabs color="black" centered grow>
       <v-tab v-for="tab in tabs" :key="tab" >{{ tab }}</v-tab>
-      <v-tab-item ><Bio></Bio></v-tab-item>
+      <v-tab-item><Bio></Bio></v-tab-item>
       <v-tab-item><Edu></Edu></v-tab-item>
       <v-tab-item><Crs></Crs></v-tab-item>
       <v-tab-item><TF></TF></v-tab-item>

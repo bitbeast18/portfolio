@@ -1,6 +1,6 @@
 <template>
   <v-container class="ctc">
-    <v-row justify="start">
+    <v-row>
       <v-col v-for="item in tools" :key="item">
         <v-card height="200px" width="200px" class="pa-4">
           <v-img :contain="true" aspect-ratio="1" :src="`/tool_icons/${item}`"></v-img>

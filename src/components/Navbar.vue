@@ -42,8 +42,8 @@ export default {
           link: "/projects"
         },
         {
-          name: "blog",
-          link: "/blogs"
+          name: "publications",
+          link: "/publications"
         },
         {
           name: "contact",
