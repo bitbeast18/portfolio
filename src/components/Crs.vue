@@ -29,34 +29,39 @@ export default {
       courses: [
         {
             name: "AI for Everyone",
-            title: "Andrew Ng - Mar 2019 - 1 course",
+            title: "Andrew Ng - Mar 2019 - 1 Course",
             icon: "/course_icons/coursera.png",
-            link: "https://google.com"
+            link: "https://www.coursera.org/account/accomplishments/certificate/EX9NVYCWMK3Z?utm_medium=certificate&utm_source=link&utm_campaign=copybutton_certificate&utm_term=long"
         },
         {
             name: "Algorithm Specialization",
-            title: "Stanford - Apr 2019 - 4 courses",
-            icon: "/course_icons/coursera.png"
+            title: "Stanford - Apr 2019 - 4 Courses",
+            icon: "/course_icons/coursera.png",
+            link: "https://www.coursera.org/account/accomplishments/certificate/9SHZHU9Y9CSM?utm_medium=certificate&utm_source=link&utm_campaign=copybutton_certificate&utm_term=long"
         },
         {
             name: "Google Cloud Codelabs",
-            title: "Qwiklabs - May 2019 - 3 quests",
-            icon: "/course_icons/qwiklabs.png"
+            title: "Qwiklabs - May 2019 - 4 Quests",
+            icon: "/course_icons/qwiklabs.png",
+            link: "https://www.qwiklabs.com/public_profiles/6ac6a81b-25e1-4f9f-b425-603bf75decdc"
         },
         {
             name: "Deep Learning Specialization",
-            title: "Andrew Ng - Jul 2019 - 5 courses",
-            icon: "/course_icons/coursera.png"
+            title: "Andrew Ng - Jul 2019 - 5 Courses",
+            icon: "/course_icons/coursera.png",
+            link: "https://www.coursera.org/account/accomplishments/specialization/certificate/PTWLA7FKQHYQ?utm_medium=certificate&utm_source=link&utm_campaign=copybutton_certificate&utm_term=long"
         },
         {
             name: "Machine Learning on GCP",
-            title: "Google Cloud - Jul 2019- 5 courses",
-            icon: "/course_icons/coursera.png"
+            title: "Google Cloud - Jul 2019- 5 Courses",
+            icon: "/course_icons/coursera.png",
+            link: "https://www.coursera.org/account/accomplishments/specialization/certificate/KJNLLDZV6E2H?utm_medium=certificate&utm_source=link&utm_campaign=copybutton_certificate&utm_term=long"
         },
         {
             name: "Competitive Programming",
             title: "Coding Ninjas - Dec 2019 - 1 course",
-            icon: "/course_icons/ninjas.svg"
+            icon: "/course_icons/ninjas.svg",
+            link: "https://ninjasfiles.s3.amazonaws.com/certificate24941636f0a16cbc69f5b121f6d20e0e52dd54.pdf"
         }
         
       ]

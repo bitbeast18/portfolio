@@ -1,6 +1,6 @@
 <template>
     <v-container>
-        <v-row >
+        <v-row>
             <v-col cols="4" v-for="card in cards" :key="card.id">
                 <v-card class="d-flex flex-column pa-3" height="100%">
                     <v-card-title style="word-break:normal !important;"> {{ card.title }} </v-card-title>

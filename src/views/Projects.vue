@@ -15,7 +15,7 @@
                       </v-card-text>
                     </div>
 
-                    <v-image :src="project.image"></v-image>
+                    <v-img :src="project.image"></v-img>
                   </div>
                 </v-card>
               </v-col>
