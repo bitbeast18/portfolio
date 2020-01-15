@@ -3,8 +3,8 @@
     <v-timeline :dense="$vuetify.breakpoint.smAndDown">
       <v-timeline-item v-for="job in jobs" :key="job.id">
         <template v-slot:icon>
-          <v-avatar class="white pa-8" size="50">
-            <img contain :src="job.icon" />
+          <v-avatar class="white pa-2" size="60">
+            <v-img contain :src="job.icon"></v-img>
           </v-avatar>
         </template>
 
